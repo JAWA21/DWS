@@ -1,0 +1,19 @@
+h1{
+	color: #fff;
+	font-family: helvetica;
+	}
+h2{ 
+	color: #6495ed;
+	font-family: helvetica;
+	}
+p{ 
+	color: orange;
+	font-family: tahoma;
+	}
+ul{ 
+	color: #fff;
+	font-family: tahoma;
+	} 
+body{
+	background-color:#030303;
+	}
