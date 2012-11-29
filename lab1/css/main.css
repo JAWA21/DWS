@@ -12,7 +12,7 @@ h2{
 	font-family: arial;
 	}
 	
-h3{ color: #B6CCF8;
+h3{ color: #DAD7C7;
 	font-family: arial;
 	}
 	
@@ -20,10 +20,8 @@ p{
 	color: #DCD4D4;
 	font-family: helvetica;
 	}
-	
 
 ul{
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	padding-top: 5px;
@@ -49,5 +47,11 @@ a:hover, a:active{
 	
 
 ol{
+	color: #DCD4D4;
+	font-family: helvetica;
 	}
+	
+ol li span{
+	font-family: arial;
+	font-style: bold
 
