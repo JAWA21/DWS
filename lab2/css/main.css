@@ -1,0 +1,60 @@
+/* General Page Styling --------------------------------- */
+
+body{
+	background-color: rgb(40,0,0);
+	}
+	
+h1{
+	background-color: #D0000D;
+	text-decoration: underline;
+	text-align: center;
+	}
+	
+h2{
+	font-style: italic;
+	color: #B0000B;
+	text-shadow: 2px 2px 3px #D0000D;
+	}
+p{
+	color: #DCD4D4;
+	font-family: helvetica;
+	}
+	
+img{
+	
+
+/* Nav Styling ----------------------------------------- */	
+ul{ 
+	list-style: none; 
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+
+
+
+color
+background-color
+font
+font-size
+font-family
+font-weight
+font-variant
+font-style
+text-align
+text-decoration
+line-height
+vertical-align
+list-style-type
+opacity
+rgb(a)
+text-shadow
+letter-spacing
+word-spacing
+text-indent
+text-transform
