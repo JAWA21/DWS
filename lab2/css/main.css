@@ -30,6 +30,7 @@ p{
 	color: #DCD4D4;
 	font-family: helvetica;
 	padding: 10px;
+	vertical-align: super;
 	}
 	
 ol{
@@ -44,7 +45,6 @@ img{
 	border: 3px solid #1F3642;
 	float: left;
 	margin: 10px;
-	vertical-align: top;
 	}
 
 /* Nav Styling ----------------------------------------- */	
