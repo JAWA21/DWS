@@ -8,40 +8,46 @@ h1{
 	background-color: #D0000D;
 	text-decoration: underline;
 	text-align: center;
+	letter-spacing: 5px;
 	}
 	
 h2{
 	font-style: italic;
+	font-size: 2em;
 	color: #B0000B;
 	text-shadow: 2px 2px 3px #D0000D;
 	}
+	
 p{
 	color: #DCD4D4;
 	font-family: helvetica;
 	}
 	
-img{
+
 	
 
 /* Nav Styling ----------------------------------------- */	
 ul{ 
-	list-style: none; 
+	list-style-type: none; 
 }
 
-a{
+a:link, a:visited{
+	color: #DAD7C7;
+	background-color: #6D968D;
+	text-align: center;
+	padding: 5px;
 	text-decoration: none;
-	color: #666;
-}
+	}
 
 
 
 
 
 
-color
-background-color
-font
-font-size
+~color
+~background-color
+~font
+~font-size
 font-family
 font-weight
 font-variant
@@ -53,8 +59,8 @@ vertical-align
 list-style-type
 opacity
 rgb(a)
-text-shadow
-letter-spacing
+~text-shadow
+~letter-spacing
 word-spacing
 text-indent
 text-transform
