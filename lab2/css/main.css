@@ -21,26 +21,38 @@ h2{
 	}
 
 h3{
-	font-variant: small caps;
+	font-variant: small-caps;
 	color: #DCD4D4;
+	word-spacing: 5px;
 	}
 	
 p{
 	color: #DCD4D4;
 	font-family: helvetica;
+	padding: 10px;
 	}
 	
 ol{
 	font: 18px/1.5 helvetica, tahoma, sans-serif;
-	color: #333; /* this changes the color! */
+	color: #DCD4D4; /* this changes the color! */
+	line-height: 2px;
+	text-indent: 3px;
+	text-transform: uppercase;
 	}
 
-	
+img{
+	border: 3px solid #1F3642;
+	float: left;
+	margin: 10px;
+	vertical-align: top;
+	}
 
 /* Nav Styling ----------------------------------------- */	
-ul{ 
+ul li{ 
 	list-style-type: none; 
-}
+	display: inline;
+
+	}
 
 a:link, a:visited{
 	color: #DAD7C7;
@@ -64,17 +76,17 @@ a:hover, a:active{
 ~font-size
 ~font-family
 ~font-weight
-font-variant
-font-style
-text-align
-text-decoration
-line-height
+~font-variant
+~font-style
+~text-align
+~text-decoration
+~line-height
 vertical-align
-list-style-type
+~list-style-type
 opacity
 rgb(a)
 ~text-shadow
 ~letter-spacing
-word-spacing
-text-indent
-text-transform
+~word-spacing
+~text-indent
+~text-transform
