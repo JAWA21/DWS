@@ -2,6 +2,7 @@
 
 body{
 	background-color: rgb(40,0,0);
+	width: 900px;
 	}
 	
 h1{
@@ -18,12 +19,21 @@ h2{
 	text-shadow: 2px 2px 3px #D0000D;
 	font-weight: normal;
 	}
+
+h3{
+	font-variant: small caps;
+	color: #DCD4D4;
+	}
 	
 p{
 	color: #DCD4D4;
 	font-family: helvetica;
 	}
 	
+ol{
+	font: 18px/1.5 helvetica, tahoma, sans-serif;
+	color: #333; /* this changes the color! */
+	}
 
 	
 
@@ -34,12 +44,15 @@ ul{
 
 a:link, a:visited{
 	color: #DAD7C7;
-	background-color: #6D968D;
+	background-color: #1F3642;
 	text-align: center;
 	padding: 5px;
 	text-decoration: none;
 	}
 
+a:hover, a:active{
+	background-color: #D0000D;
+	}
 
 
 
@@ -50,7 +63,7 @@ a:link, a:visited{
 ~font
 ~font-size
 ~font-family
-font-weight
+~font-weight
 font-variant
 font-style
 text-align
