@@ -92,11 +92,11 @@ img{
 	border: 5px solid #1F3642;
 	}
 	
-#gallery {
+.column2 {
 	float: right;
 	}
 	
-#gallery ul li {
+.column2 ul li {
 	float: left;
 	padding: 5px;
 	padding-bottom: 10px;
