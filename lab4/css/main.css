@@ -21,16 +21,16 @@ h1{
 	font-size: 2em;
 }
 
+section ul{
+	list-style-type: none;
+}
+
 .textcol{
 	-moz-column-count: 2; /* Firefox */
 	-webkit-column-count: 2; /* Safari and Chrome */
 	column-count: 2;
 	column-width: 50px;
 	clear: both;
-}
-
-ul{
-	list-style-type: none;
 }
 
 .column1{
