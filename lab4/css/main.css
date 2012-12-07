@@ -149,22 +149,20 @@ nav a{
 
 /* --------------- !image state --------------- */
 
-#gallery {
+	
+ul#gallery li{
 	float: left;
 	}
 	
-#gallery ul li{
-
-	padding: 5px;
-	padding-bottom: 10px;
+ul#gallery li img{
+	width: 150px;
+	height: auto;
 	}
 	
 
-#fifth-pic{
-	margin: 0 auto;
-	width: 496px;
-	height: 120px;
-	clear: both;
+ul#gallery li img#fifth-pic {
+	width: 600px;
+	height: auto;
 }
 /* --------------- /image state --------------- */
 
