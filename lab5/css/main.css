@@ -1,14 +1,24 @@
-/* General Page Styling --------------------------------- */
-html{
-	background-image:url('../images/dark.png'); /* applies background image to site */
+*{
+	margin: 0;
+	padding: 0;
 	}
 
-body{
-	background-color: #FF9933;
-	width: 860px;
+
+body, html {
+  color: #000;
+	background-image:url('../images/dark.png'); /* applies background image to site */
+  }
+  
+#main-content{
+	width: 960px;
 	margin: 0 auto;
+	background-color: #FF9933;
 	}
-	
+
+#header {
+  background:#ddd;
+    }  
+
 h1{
 	font-family: 'Rambla', sans-serif;
 	color: #CC9966;
@@ -24,33 +34,42 @@ h2{
 	color: #CC9966;
 	text-shadow: 2px 2px 3px #CC6600;
 	font-weight: normal;
-	background-image:url('../images/dark.png');
+	background-image: url('../images/dark.png');
 	padding: 3px;
+	clear: both;
 	}
 	
 p{
-	-moz-column-count: 2; /* Firefox */
-	-webkit-column-count: 2; /* Safari and Chrome */
-	column-count: 2;
-	column-width: 50px;
 	color: #333333;
 	font-family: helvetica;
 	padding: 10px;
 	clear: both;
 	}
 	
-li{
-	list-style-type: none; 
-	}
-
-#extra ul{
-	list-style-type: circle;
-	}
-
+.article {
+	background: #9c9;
+	float: left;
+  width: 530px;
+	display: block;
+    }
+    
+#sidebar {
+  background:#c9c;
+  float: right;
+  width: 430px;
+  background: #c9c;
+  display: block;
+    }
+    
+#footer {
+  background:#cc9;
+  display: block;
+    }
+    
 	/* /General Page Styling --------------------------------- */	
 
 
-	/* Nav Styling ----------------------------------------- */
+/* Nav Styling ----------------------------------------- */
 #nav{
 	position: absolute;
 	right: 300px;
@@ -60,6 +79,7 @@ li{
 	padding: 0;
 	height: 25px;
 	line-height: 25px;
+	list-style-type: none; 
 	}
 
 #nav li{ 
@@ -73,6 +93,7 @@ a{
 	display: block;
 	text-align: center; 
 	text-decoration: none;
+	color: gray;
 	}
 
 a:visited{
@@ -85,23 +106,14 @@ a:hover{
 	}
 	
 	/* /Nav Styling ----------------------------------------- */
-	
-	
-	/* IMG Styling ----------------------------------------- */
-img{
-	border: 5px solid #1F3642;
-	}
-	
-.column2 {
-	float: right;
-	}
-	
-.column2 ul li {
+
+
+/* IMG Styling ----------------------------------------- */
+#gallery li{
 	float: left;
-	padding: 5px;
-	padding-bottom: 10px;
+	display: inline;
+	padding: 2px;
+	margin: 10px;
 	}
 
 	/* /IMG Styling ----------------------------------------- */
-	
-	
