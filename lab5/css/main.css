@@ -10,12 +10,11 @@ html{
 body{
   color: #000;
 	background-image:url('../images/dark.png'); /* applies background image to site */
-	max-width: 960px;
+	max-width: 96em; /* 960px */
 	margin: 0 auto;
   }
   
 #main-content{
-	width: 90%;;
 	margin: 0 auto;
 	background-color: #FF9933;
 	overflow: hidden;
@@ -23,14 +22,14 @@ body{
 
 #header {
 	clear: both;
-	height: 32px;
-    }  
+	height: 3em; /* 32px */ 
+  }  
 
 h1{
 	font-family: 'Rambla', sans-serif;
 	color: #CC9966;
 	text-align: center;
-	text-shadow: 2px 2px 3px #CC6600;
+	text-shadow: 0.2em 0.2em 0.3em #CC6600; /* 2px 2px 3px */
 	letter-spacing: 5px;
 	background-image:url('../images/dark.png');
 	float: left;
@@ -41,23 +40,23 @@ h1{
 h2{
 	font-style: italic;
 	color: #CC9966;
-	text-shadow: 2px 2px 3px #CC6600;
+	text-shadow: 0.2em 0.2em 0.3em #CC6600; /* 2px 2px 3px */
 	font-weight: normal;
 	background-image: url('../images/dark.png');
-	padding: 3px;
+	padding: 0.3em; /* 3px */
 	clear: both;
 	}
 	
 p{
 	color: #333333;
 	font-family: helvetica;
-	padding: 10px;
+	padding: 1em; /* 10px */
 	clear: both;
 	}
 	
 .article {
 	float: left;
-  width: 590px;
+  width: 59em; /* 590px */ 
 	display: block;
   }
     
@@ -130,7 +129,5 @@ a:hover{
 #sidebar img{
 	padding: 5px;
 	}
-	
-
 
 	/* /IMG Styling ----------------------------------------- */
