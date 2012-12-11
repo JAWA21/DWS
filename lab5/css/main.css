@@ -11,6 +11,7 @@ body{
   color: #000;
 	background-image:url('../images/dark.png'); /* applies background image to site */
 	max-width: 96em; /* 960px */
+	min-width: 
 	margin: 0 auto;
   }
   
@@ -33,7 +34,7 @@ h1{
 	letter-spacing: 5px;
 	background-image:url('../images/dark.png');
 	float: left;
-	font-size: 26px;
+	font-size: 2.6em;
 	line-height: 26px;
 	}
 	
@@ -131,3 +132,24 @@ a:hover{
 	}
 
 	/* /IMG Styling ----------------------------------------- */
+	
+
+/* MEDIA QUERIES styling ----------------------------------------- */
+	
+	@media screen and (min-device-width: 480px){
+	div#wrapper {
+        width: 400px;
+	    }
+
+#sidebar img { background: #bbbbbb;
+	float: left;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
