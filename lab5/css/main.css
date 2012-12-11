@@ -62,9 +62,9 @@ p{
     
 #sidebar {
   float: right;
-  width: 370px;
+  width: 37em; /* 370px */
   display: block;
-  padding-top: 22px;
+  padding-top: 2.2em; /* 22px */
   }
     
 #footer {
@@ -82,20 +82,20 @@ img{
 /* Nav Styling ----------------------------------------- */
 #nav{
 	position: absolute;
-	right: 300px;
-	width: 300px;
+	right: 30em; /* 300px */
+	width: 30em; /* 300px */
 	background-color: #333333;
 	overflow: hidden;
 	padding: 0;
-	height: 32px;
-	line-height: 32px;
+	height: 3.2em; /* 32px */
+	line-height: 3.2em; /* 32px */
 	list-style-type: none; 
 	}
 
 #nav li{ 
 	font-family: 'Rambla', sans-serif;
 	color: #DAD7C7;
-	width: 100px;
+	width: 10em; /* 100px */
 	float: left;
 	}
 	
@@ -122,12 +122,12 @@ a:hover{
 #gallery li{
 	float: left;
 	display: inline;
-	padding: 2px;
-	margin: 10px;
+	padding: 0.2em; /* 2px */
+	margin: 1em; /* 10px */
 	}
 	
 #sidebar img{
-	padding: 5px;
+	padding: 0.5em; /* 5px */
 	}
 
 	/* /IMG Styling ----------------------------------------- */
