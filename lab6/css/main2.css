@@ -1,0 +1,79 @@
+body{
+	width: 450px;
+	margin: 0 auto;
+	background: #ededed;
+	}
+#container-inner{
+	background: -webkit-gradient(linear, bottom, left 100px, from(#cccccc), to(#eeeeee));
+	background: -moz-linear-gradient(bottom, #cccccc, #eeeeee 100px);
+	background: gradient(bottom, #cccccc, #eeeeee 100px);
+	margin: 0 auto;
+	width: 550px;
+	font-family: 'helvetica neue', Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #02b;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	}
+
+fieldset{ /*fieldset has default border*/
+	border: none;
+	padding: 20px;
+	}
+
+input{
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	}
+
+input:focus, textarea:focus{
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+
+textarea#feedback{
+	width: 375px;
+	height: 150px;
+	display: block;
+	}
+
+input#submit{
+	width: 100px;
+	float: right;
+	right: 20px;
+	bottom: 20px;
+	background: #02b;
+	color: #fff;
+	font-family: Tahoma, sans-serif;
+	height: 30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1p solid #999;
+	}
+
+input#submit:hover{
+	background: #999;
+	color: #02b;
+	}
+
+input#submit:active{
+	background: #fff;
+	color: #02b;
+	}
+	
+	
+	
+	
+	
+	
+	
