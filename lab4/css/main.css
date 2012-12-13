@@ -102,7 +102,7 @@ nav a{
 
 /* --------------- !link state --------------- */
 #products a{
-     background-position: 0px 0px;
+  background-position: 0px 0px;
 }
 
 #shop a{
@@ -118,7 +118,7 @@ nav a{
 /* --------------- !hover state --------------- */
 
 #products a:hover{
-     background-position: 0px -55px;
+	background-position: 0px -55px;
 }
 
 #shop a:hover{
@@ -133,7 +133,7 @@ nav a{
 
 /* --------------- !active state --------------- */
 #products a:active{
-     background-position: 0px -105px;
+  background-position: 0px -105px;
 }
 
 #shop a:active{
@@ -147,9 +147,7 @@ nav a{
 /* --------------- /active state --------------- */
 
 
-/* --------------- !image state --------------- */
-
-	
+/* --------------- !image state --------------- */	
 ul#gallery li{
 	float: left;
 	}
@@ -165,6 +163,7 @@ ul#gallery li img#fifth-pic {
 	height: auto;
 }
 /* --------------- /image state --------------- */
+
 
 footer{
 	clear: both;

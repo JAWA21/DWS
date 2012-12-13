@@ -1,0 +1,99 @@
+body{
+	width: 450px;
+	margin: 0 auto;
+	background: #ededed;
+	font-family: 'helvetica neue', Tahoma, sans-serif;
+	}
+
+#container{
+	background: #576A88;
+	border-radius: 5px;
+	border: 1px solid #999;
+	border: inset 1px solid #333;
+	margin-top: 15px;
+	}
+
+h1{
+	padding-left: 5px;
+	color: #fff;
+}
+
+input, select, label{ /*reset */
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	float: left;
+	}
+
+form{
+	padding: 20px;
+}
+	
+fieldset{ /*fieldset has default border*/
+	border: none;
+	margin: 0;
+	padding: 20px;
+	}
+	
+label{
+	width: 100px;
+	color: #eee;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	margin: 0px 5px 5px;
+	padding-right: 5px;
+	}
+
+select{
+	border: 0;
+	height: 30px;
+	width: 150px;
+	}
+
+input[type="text"]{
+	width: 150px;
+	height: 30px;
+	}
+	
+input[type="submit"]{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	width: 100px;
+	background: rgb(180,227,145); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(180,227,145,1) 0%, rgba(97,196,25,1) 50%, rgba(180,227,145,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(180,227,145,1)), color-stop(50%,rgba(97,196,25,1)), color-stop(100%,rgba(180,227,145,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(180,227,145,1) 0%,rgba(97,196,25,1) 50%,rgba(180,227,145,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+	border-radius: 10px;
+	margin-top: 5px;
+	clear: both;
+	}
+	
+input:focus, select{
+	outline-color: #00ff00;
+	}
+
+input[type="submit"]:active{
+	background: #B2B2B2;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
