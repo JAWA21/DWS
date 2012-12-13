@@ -28,21 +28,21 @@ h1{
 
 .log-in{
 	float: right;
-}
+	}
 
 form{
 	clear: right;
-}
+	}
 
 a{
 	text-decoration: none;
 	color: #BB1319;
-}
+	}
 
 a:hover{
 	text-decoration: underline;
 	color: #FDB91F;
-}
+	}
 
 fieldset{ /*fieldset has default border*/
 	border: none;
@@ -61,21 +61,21 @@ input{
 
 #profile_link{
 	margin-bottom: 15px;
-}
+	}
 
 #section-dob{
 	padding: 0;
 	margin: 0;
-}
+	}
 
 #section-dob span{
 	color: #FDB91F;
-}
+	}
 
 #field-agree-tos ul{
 	list-style-type: none;
 	padding: 0;
-}
+	}
 
 input[type="checkbox"]{
 	float: left;
@@ -84,12 +84,12 @@ input[type="checkbox"]{
 	width: 21px;
 	height: 21px;
 	margin: 0;
-}
+	}
 
 #field-agree-tos label{
 	float: left;
 	padding-left: 5px;
-}
+	}
 
 
 input#submit{

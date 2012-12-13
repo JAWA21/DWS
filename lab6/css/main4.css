@@ -28,7 +28,7 @@ h1{
 
 form{
 	clear: right;
-}
+	}
 
 input, select, label{ /*reset */
 	display: block;
@@ -41,7 +41,7 @@ input, select, label{ /*reset */
 
 #your_photo{
 	border: none;
-}
+	}
 
 fieldset{ /*fieldset has default border*/
 	border: none;
@@ -80,20 +80,23 @@ select{
 #gender legend, #section-dob span{
 	color: #DAED19;
 	text-align: left;
-}
+	}
+
+
+
 
 /*gender*/
 fieldset#gender{
 	clear: both;
-}
+	}
 
 #gender label{
 	margin: 0;
-}
+	}
 
 #gender input{
 	margin-bottom: 0;
-}
+	}
 
 
 
@@ -102,15 +105,18 @@ fieldset#gender{
 #section-dob{
 	padding: 0;
 	margin: 0;
-}
+	}
 
 
 
 
 /*NOTE*/
-em .note{
-	clear: both;
-}
+.note{
+	display: block;
+	}
+
+
+
 
 /*SUBMIT*/
 input#submit{
@@ -125,6 +131,8 @@ input#submit{
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
+	margin-top: 10px;
+	clear: both;
 	}
 
 input#submit:hover{
