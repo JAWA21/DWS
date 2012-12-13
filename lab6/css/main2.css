@@ -1,12 +1,10 @@
 body{
-	width: 450px;
 	margin: 0 auto;
 	background: #ededed;
 	}
 #container-inner{
 	background: -webkit-gradient(linear, bottom, left 100px, from(#cccccc), to(#eeeeee));
 	background: -moz-linear-gradient(bottom, #cccccc, #eeeeee 100px);
-	background: gradient(bottom, #cccccc, #eeeeee 100px);
 	margin: 0 auto;
 	width: 550px;
 	font-family: 'helvetica neue', Tahoma, sans-serif;
@@ -58,7 +56,7 @@ input#submit{
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	border: 1p solid #999;
+	border: 1px solid #999;
 	}
 
 input#submit:hover{

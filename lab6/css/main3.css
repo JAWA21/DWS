@@ -1,0 +1,138 @@
+body{
+	margin: 0 auto;
+	background: #bbb;
+	}
+
+#container-inner{
+	background: url(../images/linen.png);
+	margin: 0 auto;
+	width: 550px;
+	font-family: helvetica, tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	}
+
+h1{
+	color: #FDB91F;
+	width: 120px;
+	height: 25px;
+	}
+
+.log-in{
+	float: right;
+}
+
+form{
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+	color: #BB1319;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #FDB91F;
+}
+
+fieldset{ /*fieldset has default border*/
+	border: none;
+	padding: 20px;
+	}
+	
+input{
+	width: 375px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+
+#profile_link{
+	margin-bottom: 15px;
+}
+
+#section-dob{
+	padding: 0;
+	margin: 0;
+}
+
+#section-dob span{
+	color: #FDB91F;
+}
+
+#field-agree-tos ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+input[type="checkbox"]{
+	float: left;
+	display: inline;
+	padding: 0px;
+	width: 21px;
+	height: 21px;
+	margin: 0;
+}
+
+#field-agree-tos label{
+	float: left;
+	padding-left: 5px;
+}
+
+
+input#submit{
+	width:100px;
+	float: right;
+	right: 20px;
+	bottom: 20px;
+	background: #fff;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:	30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	}
+
+input#submit:hover{
+	background: #51484A;
+	color: #FDB91F;
+	}
+
+input#submit:active{
+	background: #B2B2B2;
+	color: #BB1319;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
