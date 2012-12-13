@@ -1,0 +1,138 @@
+body{
+	margin: 0 auto;
+	background: #bbb;
+	}
+
+#container-inner{
+	background: url(../images/woven.png);
+	margin: 0 auto;
+	width: 550px;
+	font-family: times, serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid #999;
+	}
+
+h1{
+	color: #DAED19;
+	width: 250px;
+	margin: 5px;
+	}
+
+form{
+	clear: right;
+}
+
+input, select, label{ /*reset */
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	float: left;
+	}
+
+#your_photo{
+	border: none;
+}
+
+fieldset{ /*fieldset has default border*/
+	border: none;
+	}
+
+label{
+	width: 150px;
+	color: #eee;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	margin: 0px 5px 5px;
+	padding-right: 5px;
+	clear: both;
+	}
+	
+input{
+	display: block;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+
+input[type="text"]{
+	width: 150px;
+	height: 30px;
+	}
+
+select{
+	border: 0;
+	height: 30px;
+	width: 150px;
+	}
+
+#gender legend, #section-dob span{
+	color: #DAED19;
+	text-align: left;
+}
+
+/*gender*/
+fieldset#gender{
+	clear: both;
+}
+
+#gender label{
+	margin: 0;
+}
+
+#gender input{
+	margin-bottom: 0;
+}
+
+
+
+
+/*DOB*/
+#section-dob{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+/*NOTE*/
+em .note{
+	clear: both;
+}
+
+/*SUBMIT*/
+input#submit{
+	width:100px;
+	float: right;
+	right: 20px;
+	bottom: 20px;
+	background: #fff;
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:	30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	}
+
+input#submit:hover{
+	background: #51484A;
+	color: #DAED19;
+	}
+
+input#submit:active{
+	background: #B2B2B2;
+	color: #BB1319;
+	}
